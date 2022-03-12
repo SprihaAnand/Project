@@ -1,0 +1,18 @@
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    height: 1300px;
+}
+
+#navbar ul {
+    flex-wrap: wrap;
+}
+
+#collabdiv {
+    overflow: hidden;
+}
+
+#discover {
+    display: absolute;
+    margin-top: 70px;
+}

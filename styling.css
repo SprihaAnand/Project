@@ -1,0 +1,219 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+     :root {
+        --navbar-height: 70px;
+    }
+    
+    #navbar {
+        margin: 0px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #navbar img {
+        margin: 10px;
+        height: 70px;
+        width: 70px;
+    }
+    
+    #navbar::before {
+        content: "";
+        background-color: rgb(179, 216, 235);
+        position: absolute;
+        height: 13%;
+        width: 100%;
+        z-index: -1;
+    }
+    
+    #navbar ul {
+        display: flex;
+        list-style: none;
+        padding: 1px;
+        font-size: 1.5rem;
+    }
+    
+    #navbar a {
+        margin: 0px 30px;
+        text-decoration: none;
+        text-decoration: none;
+        color: rgb(1, 1, 31);
+    }
+    
+    #navbar a:hover {
+        color: rgb(247, 250, 252);
+    }
+    
+    #home {
+        display: flex;
+        height: 550px;
+        flex-direction: column;
+        padding: 90px;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Akaya Telivigala', cursive;
+        font-family: 'Redressed', cursive;
+        color: rgb(1, 1, 31);
+        font-size: 1.5rem;
+    }
+    
+    #home::before {
+        content: "";
+        background: url('top.jpg')no-repeat center center/cover;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+        z-index: -1;
+        opacity: 0.45;
+    }
+    
+    .primary_h {
+        font-size: 3.3rem;
+    }
+    
+    .btn {
+        padding: 10px;
+        border: 2px solid navy;
+        background-color: rgb(240, 235, 235);
+        color: navy;
+        margin-top: 50px;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family: 'Gideon Roman', cursive;
+    }
+    
+    .services {
+        display: flex;
+        height: 480px;
+        justify-content: center;
+    }
+    
+    .services .box {
+        font-family: 'Gideon Roman', cursive;
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 200px;
+        justify-content: center;
+        margin: auto;
+        padding: 50px;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 10px;
+        border-radius: 20px;
+        align-items: center;
+        background-color: rgb(179, 216, 235);
+    }
+    
+    .services img {
+        height: 200px;
+        width: 200px;
+    }
+    
+    #discover {
+        display: flex;
+        height: 50px;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.4rem;
+        font-family: 'Gideon Roman', cursive;
+        margin-top: 10px;
+    }
+    
+    .collabWith img {
+        height: 120px;
+        width: 120px;
+        margin: 30px;
+        border-radius: 100px;
+        margin-top: 30px;
+    }
+    
+    #collabdiv {
+        display: flex;
+        height: 130px;
+        justify-content: center;
+        padding: 20px;
+        margin: 20px;
+    }
+    
+    #collab {
+        color: navy;
+        display: flex;
+        height: 20px;
+        text-align: center;
+        justify-content: center;
+        font-size: 20px;
+        font-family: 'Gideon Roman', cursive;
+        margin-top: 10px;
+    }
+    
+    #collab::before {
+        content: "";
+        background: url('reviewers\ bg.jpg')no-repeat center center/cover;
+        position: absolute;
+        height: 35%;
+        width: 100%;
+        margin-top: 0px;
+        z-index: -1;
+        opacity: 0.4;
+    }
+    
+    #formH {
+        color: rgb(0, 109, 128);
+        display: flex;
+        height: 100px;
+        text-align: center;
+        justify-content: center;
+        font-size: 30px;
+        font-family: 'Gideon Roman', cursive;
+        margin-top: 10px;
+    }
+    
+    .formHead {
+        height: 200px;
+    }
+    
+    #contactForm {
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #contactForm::before {
+        content: "";
+        background: url('form.jpg')no-repeat center center/cover;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+        z-index: -1;
+        opacity: 0.4;
+    }
+    
+    #contact-box {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #contact-box input,
+    #contact-box textarea {
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 9px;
+        font-size: 1.1rem;
+    }
+    
+    #contact-box textarea {
+        height: 50px;
+    }
+    
+    footer {
+        font-size: 20px;
+    }
