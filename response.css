@@ -6,7 +6,10 @@
 
 #navbar ul {
     flex-wrap: wrap;
-    height:100px;
+    
+}
+#navbar{
+height:100px;
 }
 
 #collabdiv {
